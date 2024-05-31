@@ -13,9 +13,9 @@ realm_info = {
     "clientsB2COpel": {"oauth_url": "https://idpcvs.opel.com/am/oauth2/access_token", "app_name": "MyOpel",
                        "scheme": "mymopsdk"},
 
-    "clientsB2CVauxhall": {"oauth_url": "https://idpcvs.vauxhall.co.uk/am/oauth2/access_token",
+    "clientsB2CVauxhall": {"oauth_url": "https://idpcvs.opel.com/am/oauth2/access_token",
                            "app_name": "MyVauxhall",
-                           "scheme": "mymvxsdk",
+                           "scheme": "mymopsdk",
                            }
 }
 MQTT_BRANDCODE = {"AP": "AP",
@@ -40,7 +40,7 @@ AUTHORIZE_SERVICE = {"clientsB2COpel": "https://idpcvs.opel.com/am/oauth2/author
                      "clientsB2CPeugeot": "https://idpcvs.peugeot.com/am/oauth2/authorize",
                      "clientsB2CCitroen": "https://idpcvs.citroen.com/am/oauth2/authorize",
                      "clientsB2CDS": "https://idpcvs.driveds.com/am/oauth2/authorize",
-                     "clientsB2CVauxhall": "https://idpcvs.vauxhall.co.uk/am/oauth2/authorize"
+                     "clientsB2CVauxhall": "https://idpcvs.opel.com/am/oauth2/authorize"
                      }
 REMOTE_URL = "https://api.groupe-psa.com/connectedcar/v4/virtualkey/remoteaccess/token?client_id="
 BRAND = {"com.psa.mym.myopel": {"realm": "clientsB2COpel", "brand_code": "OP", "app_name": "MyOpel"},
